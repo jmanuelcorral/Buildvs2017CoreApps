@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore-build:1.1
+FROM microsoft/aspnetcore-build:1.0-1.1
 RUN echo '{ "allow_root": true }' > /root/.bowerrc
 RUN rm /usr/local/bin/bower
 RUN rm /usr/local/bin/gulp
